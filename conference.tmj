@@ -164,6 +164,17 @@
                  "width":24,
                  "x":0,
                  "y":0
+                }, 
+                {
+                 "draworder":"topdown",
+                 "id":62,
+                 "name":"logo",
+                 "objects":[],
+                 "opacity":1,
+                 "type":"objectgroup",
+                 "visible":true,
+                 "x":0,
+                 "y":0
                 }],
          "name":"walls",
          "opacity":1,
@@ -177,7 +188,7 @@
          "layers":[
                 {
                  "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                    0, 0, 0, 0, 1827, 0, 0, 0, 0, 0, 0, 0, 1828, 1829, 1830, 1831, 1832, 0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 2959, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -263,7 +274,6 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "class":"area",
                  "height":320,
                  "id":18,
                  "name":"jitsiConference",
@@ -279,13 +289,13 @@
                          "value":"onaction"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":219.090909090909,
                  "x":32,
                  "y":96
                 }, 
                 {
-                 "class":"area",
                  "height":71.612250966399,
                  "id":19,
                  "name":"website",
@@ -311,13 +321,13 @@
                          "value":"Press SPACE or touch here to open a custom website"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":96,
                  "x":256,
                  "y":96
                 }, 
                 {
-                 "class":"area",
                  "height":96,
                  "id":22,
                  "name":"to-office",
@@ -328,13 +338,13 @@
                          "value":"map.tmj#from-conference"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":96,
                  "x":608,
                  "y":0
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":23,
                  "name":"from-office",
@@ -345,6 +355,7 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32,
                  "x":640,
@@ -362,7 +373,6 @@
          "name":"configuration",
          "objects":[
                 {
-                 "class":"variable",
                  "height":0,
                  "id":20,
                  "name":"websiteURL",
@@ -389,6 +399,7 @@
                          "value":false
                         }],
                  "rotation":0,
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":304.52245019328,
@@ -466,7 +477,7 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":62,
+ "nextlayerid":63,
  "nextobjectid":24,
  "orientation":"orthogonal",
  "properties":[
@@ -496,7 +507,7 @@
          "value":"src\/main.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.9.2",
+ "tiledversion":"1.10.1",
  "tileheight":32,
  "tilesets":[
         {
@@ -638,9 +649,35 @@
          "tilecount":273,
          "tileheight":32,
          "tilewidth":32
+        }, 
+        {
+         "columns":3,
+         "firstgid":2956,
+         "image":"tilesets\/00_ironchip_logo_articulacio\u0301n horizontal_versiones.png",
+         "imageheight":32,
+         "imagewidth":107,
+         "margin":0,
+         "name":"00_ironchip_logo_articulacio\u0301n horizontal_versiones",
+         "spacing":0,
+         "tilecount":3,
+         "tileheight":32,
+         "tilewidth":32
+        }, 
+        {
+         "columns":1,
+         "firstgid":2959,
+         "image":"tilesets\/output-onlinepngtools(1).png",
+         "imageheight":32,
+         "imagewidth":32,
+         "margin":0,
+         "name":"logo_square",
+         "spacing":0,
+         "tilecount":1,
+         "tileheight":32,
+         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.9",
+ "version":"1.10",
  "width":24
 }
