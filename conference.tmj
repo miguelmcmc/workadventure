@@ -188,7 +188,7 @@
          "layers":[
                 {
                  "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                    0, 0, 0, 0, 2959, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 2950, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -612,21 +612,8 @@
          "tilewidth":32
         }, 
         {
-         "columns":6,
-         "firstgid":1827,
-         "image":"tilesets\/WA_Logo_Long.png",
-         "imageheight":32,
-         "imagewidth":192,
-         "margin":0,
-         "name":"WA_Logo_Long",
-         "spacing":0,
-         "tilecount":6,
-         "tileheight":32,
-         "tilewidth":32
-        }, 
-        {
          "columns":25,
-         "firstgid":1833,
+         "firstgid":1827,
          "image":"tilesets\/WA_Exterior.png",
          "imageheight":1088,
          "imagewidth":800,
@@ -639,7 +626,7 @@
         }, 
         {
          "columns":13,
-         "firstgid":2683,
+         "firstgid":2677,
          "image":"tilesets\/WA_User_Interface.png",
          "imageheight":672,
          "imagewidth":416,
@@ -652,7 +639,7 @@
         }, 
         {
          "columns":3,
-         "firstgid":2956,
+         "firstgid":2950,
          "image":"tilesets\/00_ironchip_logo_articulacio\u0301n horizontal_versiones.png",
          "imageheight":32,
          "imagewidth":107,
@@ -660,19 +647,6 @@
          "name":"00_ironchip_logo_articulacio\u0301n horizontal_versiones",
          "spacing":0,
          "tilecount":3,
-         "tileheight":32,
-         "tilewidth":32
-        }, 
-        {
-         "columns":1,
-         "firstgid":2959,
-         "image":"tilesets\/output-onlinepngtools(1).png",
-         "imageheight":32,
-         "imagewidth":32,
-         "margin":0,
-         "name":"logo_square",
-         "spacing":0,
-         "tilecount":1,
          "tileheight":32,
          "tilewidth":32
         }],
